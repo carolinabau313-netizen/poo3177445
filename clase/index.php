@@ -1,7 +1,7 @@
 <?php
 //clase: molde para crear mas objetos
 
-class carro{
+class Carro{
     //atributos o propiedades (variables)
     public $color = "rojo";
     public $marca = "ferrari";
@@ -37,12 +37,12 @@ class carro{
         $this->velocidad--;
 
   
-}
+    }
 
 }
 
 //crear un objeto
-$carroEspecial = new Carro();
+$carroEspecial=new Carro(); 
 
 //var_dump($carroEspecial);
 echo 'la velocidad de mi carro es: ' .$carroEspecial->getVelocidad()."<br>";
